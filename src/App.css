@@ -1,0 +1,195 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 1240px;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wrapper {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: flex-start;
+
+}
+
+.form {
+  padding: 10px;
+  width: 400px;
+  box-shadow: 0 0 5px 10px #00000010;
+  border-radius: 10px;
+}
+
+.input {
+  width: 100%;
+  height: 36px;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.radio-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.radio {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.radio input {
+  margin-right: 10px;
+}
+
+.radio label {
+  font-size: 14px;
+}
+
+.btn-submit {
+  padding: 8px 16px;
+  background-color: royalblue;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+ul {
+  width: 700px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 10px #00000010;
+  height: auto;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+.result {
+  text-align: center;
+  width: 700px;
+  align-items: center;
+}
+
+.id {
+  width: 30px;
+  border-right: 1px solid #ccc;
+  margin-right: 5px;
+  text-align: center;
+}
+
+.name {
+  width: 35%;
+}
+
+.age {
+  width: 5%;
+  padding: 5px;
+  text-align: center;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+.gender {
+  width: 100px;
+  margin: 0 5px;
+  padding: 0 5px;
+  text-align: center;
+  border-right: 1px solid #ccc;
+}
+
+.email {
+  width: 40%;
+  text-align: right;
+  margin-right: 5px;
+}
+
+.btn-group {
+  display: flex;
+  border-left: 1px solid #ccc;
+  padding-left: 5px;
+}
+
+.btn-edit, .btn-delete {
+  padding: 5px 10px;
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn-delete {
+  background-color: red;
+}
+
+.btn-edit {
+  background-color: blue;
+}
